@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1869B5111B7999FA008BADEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1869B5101B7999FA008BADEA /* main.m */; };
+		1869B5141B7999FA008BADEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1869B5131B7999FA008BADEA /* AppDelegate.m */; };
+		1869B5171B7999FA008BADEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1869B5161B7999FA008BADEA /* ViewController.m */; };
+		1869B51A1B7999FA008BADEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1869B5181B7999FA008BADEA /* Main.storyboard */; };
+		1869B51C1B7999FA008BADEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1869B51B1B7999FA008BADEA /* Images.xcassets */; };
+		1869B51F1B7999FA008BADEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1869B51D1B7999FA008BADEA /* LaunchScreen.xib */; };
+		1869B52B1B7999FA008BADEA /* SkyRaduisTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1869B52A1B7999FA008BADEA /* SkyRaduisTestTests.m */; };
+		1869B5371B799A74008BADEA /* SkyRadiusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1869B5361B799A74008BADEA /* SkyRadiusView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1869B5251B7999FA008BADEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1869B5031B7999FA008BADEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1869B50A1B7999FA008BADEA;
+			remoteInfo = SkyRaduisTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1869B50B1B7999FA008BADEA /* SkyRaduisTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyRaduisTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1869B50F1B7999FA008BADEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1869B5101B7999FA008BADEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1869B5121B7999FA008BADEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1869B5131B7999FA008BADEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1869B5151B7999FA008BADEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1869B5161B7999FA008BADEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1869B5191B7999FA008BADEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1869B51B1B7999FA008BADEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1869B51E1B7999FA008BADEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1869B5241B7999FA008BADEA /* SkyRaduisTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyRaduisTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1869B5291B7999FA008BADEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1869B52A1B7999FA008BADEA /* SkyRaduisTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkyRaduisTestTests.m; sourceTree = "<group>"; };
+		1869B5351B799A74008BADEA /* SkyRadiusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkyRadiusView.h; path = ../../src/SkyRadiusView.h; sourceTree = "<group>"; };
+		1869B5361B799A74008BADEA /* SkyRadiusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SkyRadiusView.m; path = ../../src/SkyRadiusView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1869B5081B7999FA008BADEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1869B5211B7999FA008BADEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1869B5021B7999FA008BADEA = {
+			isa = PBXGroup;
+			children = (
+				1869B50D1B7999FA008BADEA /* SkyRaduisTest */,
+				1869B5271B7999FA008BADEA /* SkyRaduisTestTests */,
+				1869B50C1B7999FA008BADEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1869B50C1B7999FA008BADEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1869B50B1B7999FA008BADEA /* SkyRaduisTest.app */,
+				1869B5241B7999FA008BADEA /* SkyRaduisTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1869B50D1B7999FA008BADEA /* SkyRaduisTest */ = {
+			isa = PBXGroup;
+			children = (
+				1869B5341B799A58008BADEA /* SkyRadiusView */,
+				1869B5121B7999FA008BADEA /* AppDelegate.h */,
+				1869B5131B7999FA008BADEA /* AppDelegate.m */,
+				1869B5151B7999FA008BADEA /* ViewController.h */,
+				1869B5161B7999FA008BADEA /* ViewController.m */,
+				1869B5181B7999FA008BADEA /* Main.storyboard */,
+				1869B51B1B7999FA008BADEA /* Images.xcassets */,
+				1869B51D1B7999FA008BADEA /* LaunchScreen.xib */,
+				1869B50E1B7999FA008BADEA /* Supporting Files */,
+			);
+			path = SkyRaduisTest;
+			sourceTree = "<group>";
+		};
+		1869B50E1B7999FA008BADEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1869B50F1B7999FA008BADEA /* Info.plist */,
+				1869B5101B7999FA008BADEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1869B5271B7999FA008BADEA /* SkyRaduisTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				1869B52A1B7999FA008BADEA /* SkyRaduisTestTests.m */,
+				1869B5281B7999FA008BADEA /* Supporting Files */,
+			);
+			path = SkyRaduisTestTests;
+			sourceTree = "<group>";
+		};
+		1869B5281B7999FA008BADEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1869B5291B7999FA008BADEA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1869B5341B799A58008BADEA /* SkyRadiusView */ = {
+			isa = PBXGroup;
+			children = (
+				1869B5351B799A74008BADEA /* SkyRadiusView.h */,
+				1869B5361B799A74008BADEA /* SkyRadiusView.m */,
+			);
+			name = SkyRadiusView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1869B50A1B7999FA008BADEA /* SkyRaduisTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1869B52E1B7999FA008BADEA /* Build configuration list for PBXNativeTarget "SkyRaduisTest" */;
+			buildPhases = (
+				1869B5071B7999FA008BADEA /* Sources */,
+				1869B5081B7999FA008BADEA /* Frameworks */,
+				1869B5091B7999FA008BADEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyRaduisTest;
+			productName = SkyRaduisTest;
+			productReference = 1869B50B1B7999FA008BADEA /* SkyRaduisTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1869B5231B7999FA008BADEA /* SkyRaduisTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1869B5311B7999FA008BADEA /* Build configuration list for PBXNativeTarget "SkyRaduisTestTests" */;
+			buildPhases = (
+				1869B5201B7999FA008BADEA /* Sources */,
+				1869B5211B7999FA008BADEA /* Frameworks */,
+				1869B5221B7999FA008BADEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1869B5261B7999FA008BADEA /* PBXTargetDependency */,
+			);
+			name = SkyRaduisTestTests;
+			productName = SkyRaduisTestTests;
+			productReference = 1869B5241B7999FA008BADEA /* SkyRaduisTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1869B5031B7999FA008BADEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = skytoup;
+				TargetAttributes = {
+					1869B50A1B7999FA008BADEA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1869B5231B7999FA008BADEA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1869B50A1B7999FA008BADEA;
+					};
+				};
+			};
+			buildConfigurationList = 1869B5061B7999FA008BADEA /* Build configuration list for PBXProject "SkyRaduisTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1869B5021B7999FA008BADEA;
+			productRefGroup = 1869B50C1B7999FA008BADEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1869B50A1B7999FA008BADEA /* SkyRaduisTest */,
+				1869B5231B7999FA008BADEA /* SkyRaduisTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1869B5091B7999FA008BADEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1869B51A1B7999FA008BADEA /* Main.storyboard in Resources */,
+				1869B51F1B7999FA008BADEA /* LaunchScreen.xib in Resources */,
+				1869B51C1B7999FA008BADEA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1869B5221B7999FA008BADEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1869B5071B7999FA008BADEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1869B5371B799A74008BADEA /* SkyRadiusView.m in Sources */,
+				1869B5171B7999FA008BADEA /* ViewController.m in Sources */,
+				1869B5141B7999FA008BADEA /* AppDelegate.m in Sources */,
+				1869B5111B7999FA008BADEA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1869B5201B7999FA008BADEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1869B52B1B7999FA008BADEA /* SkyRaduisTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1869B5261B7999FA008BADEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1869B50A1B7999FA008BADEA /* SkyRaduisTest */;
+			targetProxy = 1869B5251B7999FA008BADEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1869B5181B7999FA008BADEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1869B5191B7999FA008BADEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1869B51D1B7999FA008BADEA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1869B51E1B7999FA008BADEA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1869B52C1B7999FA008BADEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1869B52D1B7999FA008BADEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1869B52F1B7999FA008BADEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkyRaduisTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1869B5301B7999FA008BADEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkyRaduisTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1869B5321B7999FA008BADEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SkyRaduisTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyRaduisTest.app/SkyRaduisTest";
+			};
+			name = Debug;
+		};
+		1869B5331B7999FA008BADEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SkyRaduisTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyRaduisTest.app/SkyRaduisTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1869B5061B7999FA008BADEA /* Build configuration list for PBXProject "SkyRaduisTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1869B52C1B7999FA008BADEA /* Debug */,
+				1869B52D1B7999FA008BADEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1869B52E1B7999FA008BADEA /* Build configuration list for PBXNativeTarget "SkyRaduisTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1869B52F1B7999FA008BADEA /* Debug */,
+				1869B5301B7999FA008BADEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1869B5311B7999FA008BADEA /* Build configuration list for PBXNativeTarget "SkyRaduisTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1869B5321B7999FA008BADEA /* Debug */,
+				1869B5331B7999FA008BADEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1869B5031B7999FA008BADEA /* Project object */;
+}
