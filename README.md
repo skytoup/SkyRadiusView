@@ -1,28 +1,32 @@
-#SkyRadiusView
+# SkyRadiusView
 
 -----
-##测试环境：Xcode6，iOS7.0以上
+## 测试环境：Xcode6，iOS7.0以上
 ![GIF](1.gif)
-##简介
+## 简介
 实现view背景色的四个边角自定义成圆角
 
 -----
-##使用方法
+## 使用方法
 使用方法很简单，只需要在xib或StoryBoard中继承SkyRadiusView，并设置参数即可
 详情请参考项目中的示例代码 和 gif图片
 
+## CocosPods
+use_frameworks!
+pod 'SkyRadiusView', '~> 1.0.0'
+
 -----
-##关于我
+## 关于我
 * 一枚普通的即将大三的珠海大学生
 * 希望大三实习、毕业的工作地方都在珠海
 
 -----
-##联系方式
+## 联系方式
 * QQ：875766917，请备注
 * Mail：875766917@qq.com
 
 -----
-##开源协议（License）
+## 开源协议（License）
 The MIT License (MIT)
 
 Copyright (c) 2015 skytoup

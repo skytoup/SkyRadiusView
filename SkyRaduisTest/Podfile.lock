@@ -1,0 +1,16 @@
+PODS:
+  - SkyRaduisView (1.0.0)
+
+DEPENDENCIES:
+  - SkyRaduisView (from `../SkyRaduisView.podspec`)
+
+EXTERNAL SOURCES:
+  SkyRaduisView:
+    :podspec: "../SkyRaduisView.podspec"
+
+SPEC CHECKSUMS:
+  SkyRaduisView: 4b05b26637c84e4be2352f524699a727f31a0f65
+
+PODFILE CHECKSUM: 465ea55ff2c8c88b27ca3fb0d55ee676bdbf38ad
+
+COCOAPODS: 1.0.0.rc.2

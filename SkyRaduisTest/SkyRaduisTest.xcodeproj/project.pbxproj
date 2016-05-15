@@ -14,7 +14,7 @@
 		1869B51C1B7999FA008BADEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1869B51B1B7999FA008BADEA /* Images.xcassets */; };
 		1869B51F1B7999FA008BADEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1869B51D1B7999FA008BADEA /* LaunchScreen.xib */; };
 		1869B52B1B7999FA008BADEA /* SkyRaduisTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1869B52A1B7999FA008BADEA /* SkyRaduisTestTests.m */; };
-		1869B5371B799A74008BADEA /* SkyRadiusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1869B5361B799A74008BADEA /* SkyRadiusView.m */; };
+		C3B2E1F83A2CADA29FF3B82D /* Pods_SkyRaduisTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCCBC4AF32363743E997663 /* Pods_SkyRaduisTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E9A7046907E2E0FA3D3F63F /* Pods-SkyRaduisTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyRaduisTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyRaduisTest/Pods-SkyRaduisTest.debug.xcconfig"; sourceTree = "<group>"; };
 		1869B50B1B7999FA008BADEA /* SkyRaduisTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyRaduisTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1869B50F1B7999FA008BADEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1869B5101B7999FA008BADEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,8 +42,8 @@
 		1869B5241B7999FA008BADEA /* SkyRaduisTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyRaduisTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1869B5291B7999FA008BADEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1869B52A1B7999FA008BADEA /* SkyRaduisTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkyRaduisTestTests.m; sourceTree = "<group>"; };
-		1869B5351B799A74008BADEA /* SkyRadiusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkyRadiusView.h; path = ../../src/SkyRadiusView.h; sourceTree = "<group>"; };
-		1869B5361B799A74008BADEA /* SkyRadiusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SkyRadiusView.m; path = ../../src/SkyRadiusView.m; sourceTree = "<group>"; };
+		2F10B4A3033E9B0F54DA5543 /* Pods-SkyRaduisTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyRaduisTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyRaduisTest/Pods-SkyRaduisTest.release.xcconfig"; sourceTree = "<group>"; };
+		DDCCBC4AF32363743E997663 /* Pods_SkyRaduisTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyRaduisTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3B2E1F83A2CADA29FF3B82D /* Pods_SkyRaduisTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +71,8 @@
 				1869B50D1B7999FA008BADEA /* SkyRaduisTest */,
 				1869B5271B7999FA008BADEA /* SkyRaduisTestTests */,
 				1869B50C1B7999FA008BADEA /* Products */,
+				9AFB2E705608830EE9C00E76 /* Pods */,
+				93C63731DC8337ED54CDE7D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,7 +88,6 @@
 		1869B50D1B7999FA008BADEA /* SkyRaduisTest */ = {
 			isa = PBXGroup;
 			children = (
-				1869B5341B799A58008BADEA /* SkyRadiusView */,
 				1869B5121B7999FA008BADEA /* AppDelegate.h */,
 				1869B5131B7999FA008BADEA /* AppDelegate.m */,
 				1869B5151B7999FA008BADEA /* ViewController.h */,
@@ -123,13 +126,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1869B5341B799A58008BADEA /* SkyRadiusView */ = {
+		93C63731DC8337ED54CDE7D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1869B5351B799A74008BADEA /* SkyRadiusView.h */,
-				1869B5361B799A74008BADEA /* SkyRadiusView.m */,
+				DDCCBC4AF32363743E997663 /* Pods_SkyRaduisTest.framework */,
 			);
-			name = SkyRadiusView;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AFB2E705608830EE9C00E76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E9A7046907E2E0FA3D3F63F /* Pods-SkyRaduisTest.debug.xcconfig */,
+				2F10B4A3033E9B0F54DA5543 /* Pods-SkyRaduisTest.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1869B52E1B7999FA008BADEA /* Build configuration list for PBXNativeTarget "SkyRaduisTest" */;
 			buildPhases = (
+				AE454BECF90B7CA5DBFA39E8 /* 📦 Check Pods Manifest.lock */,
 				1869B5071B7999FA008BADEA /* Sources */,
 				1869B5081B7999FA008BADEA /* Frameworks */,
 				1869B5091B7999FA008BADEA /* Resources */,
+				7E708EADC17A683F00E606B8 /* 📦 Embed Pods Frameworks */,
+				41326E863ABE874583D02E9E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,12 +241,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41326E863ABE874583D02E9E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyRaduisTest/Pods-SkyRaduisTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E708EADC17A683F00E606B8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyRaduisTest/Pods-SkyRaduisTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE454BECF90B7CA5DBFA39E8 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1869B5071B7999FA008BADEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1869B5371B799A74008BADEA /* SkyRadiusView.m in Sources */,
 				1869B5171B7999FA008BADEA /* ViewController.m in Sources */,
 				1869B5141B7999FA008BADEA /* AppDelegate.m in Sources */,
 				1869B5111B7999FA008BADEA /* main.m in Sources */,
@@ -359,6 +420,7 @@
 		};
 		1869B52F1B7999FA008BADEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E9A7046907E2E0FA3D3F63F /* Pods-SkyRaduisTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SkyRaduisTest/Info.plist;
@@ -370,6 +432,7 @@
 		};
 		1869B5301B7999FA008BADEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F10B4A3033E9B0F54DA5543 /* Pods-SkyRaduisTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SkyRaduisTest/Info.plist;
