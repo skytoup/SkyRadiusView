@@ -1,6 +1,6 @@
 # Uncomment this line to define a global platform for your project
 platform :ios, '7.0'
-use_frameworks!
+# use_frameworks! # iOS 8.0
 
 target 'SkyRaduisTest' do
 	pod 'SkyRaduisView', :podspec => '../SkyRaduisView.podspec'
