@@ -12,7 +12,7 @@
 详情请参考项目中的示例代码 和 gif图片
 
 ## CocosPods
-pod 'SkyRadiusView', '~> 1.0'
+pod 'SkyRaduisView', '~> 1.0.0'
 
 -----
 ## 关于我
